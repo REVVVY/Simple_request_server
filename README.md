@@ -1,3 +1,8 @@
 # Simple request server
 
 Simple request server that support HTTP GET.
+
+# Guide
+In order to run the program you could open the project in intellj or similar IDEs or just locate the 2 java classes `Main` and `Server` 
+Run the Main class located in: src/main/java/org/example/
+You can also inside of the Main class specify a desired port and root directory of the server. You can use my predefined files if you want located in the root of the project (`404.html` and `test.html`). Those 2 files include 1 html file for the 404 not found error and another one that just displays plain text. Make sure that when you run the `Main` class those 2 files are located in the root of the server which you define by the second parameter in the main function.
